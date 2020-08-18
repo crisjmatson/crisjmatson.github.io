@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cris Matson Portfolio</title>
-    <link type="text/css" rel="stylesheet" href="CSS/main.css"/>
-</head>
-<body>
-    <script src ="main.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cris Matson Portfolio</title>
+		<!-- bootstrap css link -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<!-- google fonts link -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Lato:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- my css link -->
+		<link type="text/css" rel="stylesheet" href="CSS/main.css" />
+	</head>
+	<body>
+		<!-- navbar section -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarNav"
+				aria-controls="navbarNav"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav" id="nav-content">
+					<li class="nav-item active">
+						<a class="nav-link" href="#landing-section"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a
+							class="nav-link disabled"
+							href="#"
+							tabindex="-1"
+							aria-disabled="true"
+							>Disabled</a
+						>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Jumbotron -->
+		<section id="landing-section">
+			<div class="jumbotron jumbotron-fluid">
+				<div class="jumbo-container container">
+					<h1 class="display-4 namehtag">cris j matson</h1>
+					<p class="lead namehtag">
+						web development student
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="about-text">
+				Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
+				kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
+				winter purslane kale. Celery potato scallion desert raisin horseradish
+				spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
+				shoot green bean swiss chard seakale pumpkin onion chickpea gram corn
+				pea. Brussels sprout coriander water chestnut gourd swiss chard wakame
+				kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts
+				nori azuki bean chickweed potato bell pepper artichoke. Nori grape
+				silver beet broccoli kombu beet greens fava bean potato quandong celery.
+				Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens
+				parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane
+				fennel azuki bean earthnut pea sierra leone bologi leek soko chicory
+				celtuce parsley jï¿½cama salsify.
+			</div>
+		</section>
+
+		<section class="jumbotron-fluid projects">
+			<div class="row">
+				<a
+					class="projectCase col"
+					href="https://cryptocurrencyapicm.web.app/"
+					target="blank"
+				>
+					<img
+						class="img-fluid"
+						src="https://images.unsplash.com/photo-1490732239438-ee956a60ed41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1072&q=80"
+						alt=""
+					/>
+				</a>
+				<a
+					class="projectCase col"
+					href="https://crisjmatson.github.io/CovidIndianaData/"
+					target="blank"
+				>
+					<img
+						class="img-fluid"
+						src="https://images.unsplash.com/photo-1588775373957-75bcf1bd3dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+						alt=""
+					/>
+				</a>
+				<a
+					class="projectCase col"
+					href="https://crisjmatson.github.io/staticLayout/"
+					target="blank"
+				>
+					<img
+						class="img-fluid"
+						src="https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+						alt=""
+					/>
+				</a>
+			</div>
+			<div class="row">
+				<a
+					class="projectCase col"
+					href="https://images.unsplash.com/photo-1569742460976-c91ebe40b0b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+					target="blank"
+				>
+					<img
+						class="img-fluid"
+						src="https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+						alt=""
+					/>
+				</a>
+				<a
+					class="projectCase col"
+					href="https://crisjmatson.github.io/staticLayout/"
+					target="blank"
+				>
+					<img
+						class="img-fluid"
+						src="https://images.unsplash.com/photo-1533252720003-9be5ea45fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1704&q=80"
+						alt=""
+					/>
+				</a>
+				<a
+					class="projectCase col"
+					href="https://crisjmatson.github.io/staticLayout/"
+					target="blank"
+				>
+					<img
+						class="img-fluid"
+						src="https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
+						alt=""
+					/>
+				</a> 
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<form action="https://formspree.io/mnqgrdaw" method="POST">
+					<label>
+						Your email:
+						<input type="text" name="_replyto" />
+					</label>
+					<label>
+						Your message:
+						<textarea name="message"></textarea>
+					</label>
+
+					<!-- your other form fields go here -->
+
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		</section>
+
+		<!-- bootstrap script tags -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+		<!-- my javascript link -->
+		<script src="main.js"></script>
+	</body>
 </html>

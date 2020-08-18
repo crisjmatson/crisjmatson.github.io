@@ -1,0 +1,28 @@
+:root {
+	--redMain: #d5371e;
+	--redSecond: #ff715a;
+	--redThird: #ff4426;
+	--redFourth: #a11600;
+	--redFifth: #7a1100;
+
+	--yellowMain: #ffbd31; /* Main Secondary color (1) */
+	--yellowSecond: #fff7e6;
+	--yellowThird: #ffd57d;
+	--yellowFourth: #c98800;
+	--yellowFifth: #734e00;
+
+	--blueMain: #37539f; /* Main Secondary color (2) */
+	--blueSecond: #a4b5e2;
+	--blueThird: #5f78bc;
+	--blueFourth: #1a3680;
+	--blueFifth: #081d55;
+
+	--greenMain: #2eaf55; /* Main Complement color */
+	--greenSecond: #a1e8b6;
+	--greenThird: #5ac97b;
+	--greenFourth: #0f8d35;
+    --greenFifth: #005d1c;
+    
+    --fontOne:'Catamaran', sans-serif;
+    --fontTwo: 'Lato', sans-serif; 
+}
