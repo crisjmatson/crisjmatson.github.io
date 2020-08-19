@@ -12,174 +12,251 @@
 			crossorigin="anonymous"
 		/>
 		<!-- google fonts link -->
-		<link
-			href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Lato:wght@300&display=swap"
-			rel="stylesheet"
-		/>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 		<!-- my css link -->
 		<link type="text/css" rel="stylesheet" href="CSS/main.css" />
 	</head>
 	<body>
 		<!-- navbar section -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navbarNav"
-				aria-controls="navbarNav"
-				aria-expanded="false"
-				aria-label="Toggle navigation"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav" id="nav-content">
-					<li class="nav-item active">
-						<a class="nav-link" href="#landing-section"
-							>Home <span class="sr-only">(current)</span></a
-						>
-					</li>
+
+		<div class="jumbotron jumbotron-fluid headJumbo" id="landing-section">
+			<div class="navBox container-fluid">
+				<ul class="navbar-nav row navList" id="nav-content">
 					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
+						<a href="#landing-section">home</a>
 					</li>
+
 					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
+						<a href="#aboutLand">about</a>
 					</li>
+
 					<li class="nav-item">
-						<a
-							class="nav-link disabled"
-							href="#"
-							tabindex="-1"
-							aria-disabled="true"
-							>Disabled</a
-						>
+						<a href="#projectsLand">projects</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#contactLand">contact</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="#mediaLand">social</a>
 					</li>
 				</ul>
 			</div>
-		</nav>
+			<!-- name & title -->
+			<div class="container nametag">
+				<h1 class="display-4">cris j matson</h1>
+				<p class="lead">
+					web developer
+				</p>
+			</div>
+		</div>
 
-		<!-- Jumbotron -->
-		<section id="landing-section">
-			<div class="jumbotron jumbotron-fluid">
-				<div class="jumbo-container container">
-					<h1 class="display-4 namehtag">cris j matson</h1>
-					<p class="lead namehtag">
-						web development student
-					</p>
+		<!-- about -->
+		<section id="aboutLand">
+			<div class="text-wrap about-text">
+				<h4 class="aboutHeader">ABOUT</h4><br>
+				<p class="aboutBodyText">
+					Most recently I worked in fine dining, honing my soft skills &
+					attention to detail. <br /><br />I'm currently focusing on the web
+					development bootcamp offered by Eleven Fifty Academy.
+				</p><br>
+				<button type="button" class="btn btn-outline-dark resumeBtn">
+					download resume
+				</button>
+			</div>
+			<div class="addResumeHereGatDamnDummy"></div>
+		</section>
+
+		<!-- projects -->
+		<section class="jumbotron jumbotron-fluid projects-box" id="projectsLand"><div><h1 class="projectsTitle">recent work</h1></div>
+			<div class="row d-flex">
+				<div class="card col cryptoCard" style="width: 18rem;">
+					<a href="https://cryptocurrencyapicm.web.app/" target="blank">
+						<div class="card-body">
+							<h5 class="card-title">Crypto Coin API</h5>
+							<h6 class="card-subtitle mb-2 text-muted">
+								utilized API with key to display data
+							</h6>
+						</div>
+					</a>
+				</div>
+
+				<div class="card col staticCard" style="width: 18rem;">
+					<a href="https://crisjmatson.github.io/staticLayout/" target="blank">
+						<div class="card-body">
+							<h5 class="card-title">Static Site Layout</h5>
+							<h6 class="card-subtitle mb-2 text-muted">
+								recreated public site using html/css
+							</h6>
+						</div>
+					</a>
+				</div>
+
+				<div class="card col creatureCard" style="width: 18rem;">
+					<a href="https://codepen.io/crisjmatson/full/RwrmRdd" target="blank">
+						<div class="card-body">
+							<h5 class="card-title">CSS Creature</h5>
+							<h6 class="card-subtitle mb-2 text-muted">
+								created and manipulated forms through css
+							</h6>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="card col covidCard" style="width: 18rem;">
+					<a
+						href="https://crisjmatson.github.io/CovidIndianaData/"
+						target="blank"
+					>
+						<div class="card-body">
+							<h5 class="card-title">COVID-19 API</h5>
+							<h6 class="card-subtitle mb-2 text-muted">
+								pulled data from keyless api, organized and formatted data
+							</h6>
+						</div>
+					</a>
+				</div>
+				<div class="card col blueBadgeCard" style="width: 18rem;">
+					<a
+						href="https://crisjmatson.github.io/CovidIndianaData/"
+						target="blank"
+					>
+						<div class="card-body">
+							<h5 class="card-title">1150 Blue Badge</h5>
+							<h6 class="card-subtitle mb-2 text-muted">
+								-TBA-
+							</h6>
+						</div>
+					</a>
+				</div>
+				<div class="card col redBadgeCard" style="width: 18rem;">
+					<a
+						href="https://crisjmatson.github.io/CovidIndianaData/"
+						target="blank"
+					>
+						<div class="card-body">
+							<h5 class="card-title">1150 Red Badge</h5>
+							<h6 class="card-subtitle mb-2 text-muted">
+								-TBA-
+							</h6>
+						</div>
+					</a>
 				</div>
 			</div>
 		</section>
-		<section id="about">
-			<div class="about-text">
-				Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce
-				kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus
-				winter purslane kale. Celery potato scallion desert raisin horseradish
-				spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo
-				shoot green bean swiss chard seakale pumpkin onion chickpea gram corn
-				pea. Brussels sprout coriander water chestnut gourd swiss chard wakame
-				kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts
-				nori azuki bean chickweed potato bell pepper artichoke. Nori grape
-				silver beet broccoli kombu beet greens fava bean potato quandong celery.
-				Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens
-				parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane
-				fennel azuki bean earthnut pea sierra leone bologi leek soko chicory
-				celtuce parsley jï¿½cama salsify.
+		<!-- contact form -->
+		<section class="jumbotron jumbotron-fluid contact" id="contactLand">
+			<div class="contactHeader">
+				<h1>contact</h1>
+				<p>Please contact me, I desire employment.</p>
 			</div>
-		</section>
-
-		<section class="jumbotron-fluid projects">
-			<div class="row">
-				<a
-					class="projectCase col"
-					href="https://cryptocurrencyapicm.web.app/"
-					target="blank"
-				>
-					<img
-						class="img-fluid"
-						src="https://images.unsplash.com/photo-1490732239438-ee956a60ed41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1072&q=80"
-						alt=""
-					/>
-				</a>
-				<a
-					class="projectCase col"
-					href="https://crisjmatson.github.io/CovidIndianaData/"
-					target="blank"
-				>
-					<img
-						class="img-fluid"
-						src="https://images.unsplash.com/photo-1588775373957-75bcf1bd3dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
-						alt=""
-					/>
-				</a>
-				<a
-					class="projectCase col"
-					href="https://crisjmatson.github.io/staticLayout/"
-					target="blank"
-				>
-					<img
-						class="img-fluid"
-						src="https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
-						alt=""
-					/>
-				</a>
-			</div>
-			<div class="row">
-				<a
-					class="projectCase col"
-					href="https://images.unsplash.com/photo-1569742460976-c91ebe40b0b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
-					target="blank"
-				>
-					<img
-						class="img-fluid"
-						src="https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
-						alt=""
-					/>
-				</a>
-				<a
-					class="projectCase col"
-					href="https://crisjmatson.github.io/staticLayout/"
-					target="blank"
-				>
-					<img
-						class="img-fluid"
-						src="https://images.unsplash.com/photo-1533252720003-9be5ea45fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1704&q=80"
-						alt=""
-					/>
-				</a>
-				<a
-					class="projectCase col"
-					href="https://crisjmatson.github.io/staticLayout/"
-					target="blank"
-				>
-					<img
-						class="img-fluid"
-						src="https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80"
-						alt=""
-					/>
-				</a> 
-			</div>
-		</section>
-
-		<section id="contact">
-			<div class="container">
+			<div class="container-fluid contactForm">
 				<form action="https://formspree.io/mnqgrdaw" method="POST">
 					<label>
-						Your email:
-						<input type="text" name="_replyto" />
-					</label>
+						email:
+						<input
+							type="email"
+							name="_replyto"
+							class="form-control"
+							placeholder="name@example.com"
+							required
+						/> </label
+					><br />
+
 					<label>
-						Your message:
-						<textarea name="message"></textarea>
+						message:<br />
+						<textarea
+							name="message"
+							class="form-control"
+							placeholder="Hello!"
+						></textarea>
 					</label>
 
-					<!-- your other form fields go here -->
-
-					<button type="submit">Send</button>
+					<br />
+					<button type="submit" class="btn btn-outline-dark submitBtn">send</button>
 				</form>
 			</div>
 		</section>
+		<!-- media channels -->
+		<section class="mediaPage" id="mediaLand">
+			<div class="row d-flex logos">
+				<a
+					class="col-4 socialImg"
+					href="https://codepen.io/crisjmatson"
+					target="blank"
+				>
+					<img
+						class="img-fluid logoImageLinks"
+						src="https://user-images.githubusercontent.com/68344211/90580125-1f9dca00-e196-11ea-89ed-66ea517d1fab.png"
+						alt="codepenLogo"
+					/>
+				</a>
+
+				<a
+					class="col-4 socialImg"
+					href="https://dev.to/crisjmatson"
+					target="blank"
+				>
+					<img
+						class="img-fluid logoImageLinks"
+						src="https://user-images.githubusercontent.com/68344211/90580126-1f9dca00-e196-11ea-84f7-2aeb592bef0b.png"
+						alt="devLogo"
+				/></a>
+
+				<a
+					class="col-4 socialImg"
+					href="https://github.com/crisjmatson"
+					target="blank"
+				>
+					<img
+						class="img-fluid logoImageLinks"
+						src="https://user-images.githubusercontent.com/68344211/90580127-20366080-e196-11ea-96b0-dfbe9111eb5a.png"
+						alt="githubLogo"
+					/>
+				</a>
+			</div>
+			<div class="row d-flex logos">
+				<a
+					class="col-4 socialImg"
+					href="https://www.linkedin.com/in/crismatson/"
+					target="blank"
+				>
+					<img
+						class="img-fluid logoImageLinks linkedInLogoAdjust"
+						src="https://user-images.githubusercontent.com/68344211/90580129-20cef700-e196-11ea-856c-b634885fcc67.png"
+						alt="linkedInLogo"
+					/> </a
+				><a
+					class="col-4 socialImg"
+					href="https://repl.it/@catson"
+					target="blank"
+				>
+					<img
+						class="img-fluid logoImageLinks"
+						src="https://user-images.githubusercontent.com/68344211/90580130-20cef700-e196-11ea-8d9d-9dc1792f30ea.png"
+						alt="replLogo"
+					/> </a
+				><a
+					class="col-4 socialImg"
+					href="https://open.spotify.com/user/craftstina?si=n3KMHg0tSWuA7bipwg5Bcw"
+					target="blank"
+				>
+					<img
+						class="img-fluid logoImageLinks"
+						src="https://user-images.githubusercontent.com/68344211/90580131-21678d80-e196-11ea-9f17-f5a7917a8551.png"
+						alt="spotify"
+					/>
+				</a>
+			</div>
+		</section>
+
+		<!-- footer -->
+
+		<div class="myFeet d-flex" id="footerLand">
+			<span class="col feetText">page 28</span>
+		</div>
 
 		<!-- bootstrap script tags -->
 		<script

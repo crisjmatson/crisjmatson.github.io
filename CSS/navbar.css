@@ -1,8 +1,37 @@
 #nav-content {
-    margin-left: 75%;
-    font-family: var(--fontTwo);
-    
+	font-family: var(--fontTwo);
+	position: fixed;
+	margin-top: 0.5rem;
+	z-index: 4;
+	flex-flow: row;
+	justify-content: flex-start;
 }
-nav {
-    background: none;
+.navBox {
+	overflow: auto;
+	background-color: var(--blueMain);
+	border: thick solid inherit;
+	height: 4.1rem;
+	position: fixed;
+	margin: -4rem auto auto auto;
+	opacity: 0.8;
+	z-index: 4;
+	padding-top: 1%;
+}
+.nav-list {
+	display: flexbox;
+	overflow: auto;
+	width: 100%;
+	flex-flow: row;
+	justify-content: space-around;	
+}
+.nav-item {
+	align-self: flex-start;
+	flex-grow: 6;
+	padding: 0.3rem;
+	margin-left: 2vw;
+	font-family: var(--fontOne);
+}
+.nav-item:hover {
+	transform: scale(1.5);
+	transition: width 0.3s, height 0.3s, transform 0.3s;
 }

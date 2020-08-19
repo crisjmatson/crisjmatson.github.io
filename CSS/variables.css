@@ -1,6 +1,6 @@
 :root {
 	--redMain: #d5371e;
-	--redSecond: #ff715a;
+	--redSecond: #fa5239;
 	--redThird: #ff4426;
 	--redFourth: #a11600;
 	--redFifth: #7a1100;
@@ -23,6 +23,6 @@
 	--greenFourth: #0f8d35;
     --greenFifth: #005d1c;
     
-    --fontOne:'Catamaran', sans-serif;
-    --fontTwo: 'Lato', sans-serif; 
+    --fontOne:'Bebas Neue', cursive;
+    --fontTwo: 'Open Sans', sans-serif; 
 }

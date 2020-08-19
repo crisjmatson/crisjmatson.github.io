@@ -1,22 +1,47 @@
-.cardJumbotron {
-	background-image: url("https://images.unsplash.com/photo-1584404268984-89c43e841646?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
+.projects-box {
+	background-color: var(--blueMain);
+	background-image: url("https://images.unsplash.com/photo-1595531980346-03a39f6d518b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+	background-position-y: bottom;
+	background-position-x: right;
+	padding: 5% 5% 5% 5%;
 }
-.cryptoSq {
-	background-image: url("https://images.unsplash.com/photo-1490732239438-ee956a60ed41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1072&q=80");
+.projectsTitle {
+	font-family: var(--fontOne);
+	font-size: 84px;
+	text-align: right;
 }
-.covidSq {
-	background-image: url("https://images.unsplash.com/photo-1588775373957-75bcf1bd3dc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80");
+.card {
+	font-family: var(--fontTwo);
+	border-radius: 2%;
+	padding: 8% 1%;
+	border: none;
+	margin: 2%;
+	text-align: center;
 }
-.staticSq {
-	background-image: url("https://images.unsplash.com/photo-1573256019279-a5ae9ec7113b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80");
+.card:hover {
+	opacity: 1;
+	transform: scale(1.1);
+	transition: width 0.3s, height 0.3s, transform 0.3s;
+	z-index: 2;
 }
-.plantSq {
-	background-image: url("https://images.unsplash.com/photo-1569742460976-c91ebe40b0b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80");
+.card-subtitle {
+	font-family: var(--fontOne);
 }
-.fishSq {
-    background-image: url("https://images.unsplash.com/photo-1533252720003-9be5ea45fffc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1704&q=80");
+.cryptoCard {
+	background-color: var(--yellowMain);
 }
-.yhelpSq {
-	
-	background-image: url("https://images.unsplash.com/photo-1590284635836-dc0f237b74d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+.staticCard {
+	background-color: var(--yellowThird);
+}
+.creatureCard {
+	background-color: var(--yellowMain);
+}
+.covidCard {
+	background-color: var(--yellowThird);
+}
+.blueBadgeCard {
+	background-color: var(--yellowMain);
+}
+.redBadgeCard {
+	background-color: var(--yellowThird);
 }
