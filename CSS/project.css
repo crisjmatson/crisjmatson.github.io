@@ -12,6 +12,8 @@
 }
 .card {
 	font-family: var(--fontTwo);
+	color: var(--blueFourth);
+	background-color: var(--yellowMainTransparent);
 	border-radius: 2%;
 	padding: 8% 1%;
 	border: none;
@@ -19,29 +21,12 @@
 	text-align: center;
 }
 .card:hover {
-	opacity: 1;
+	background-color: var(--yellowMain);
 	transform: scale(1.1);
 	transition: width 0.3s, height 0.3s, transform 0.3s;
 	z-index: 2;
 }
 .card-subtitle {
 	font-family: var(--fontOne);
-}
-.cryptoCard {
-	background-color: var(--yellowMain);
-}
-.staticCard {
-	background-color: var(--yellowThird);
-}
-.creatureCard {
-	background-color: var(--yellowMain);
-}
-.covidCard {
-	background-color: var(--yellowThird);
-}
-.blueBadgeCard {
-	background-color: var(--yellowMain);
-}
-.redBadgeCard {
-	background-color: var(--yellowThird);
+	color: var(--blueFifth);
 }

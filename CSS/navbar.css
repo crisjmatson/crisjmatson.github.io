@@ -8,13 +8,11 @@
 }
 .navBox {
 	overflow: auto;
-	background-color: var(--blueMain);
+	background-color: var(--blueMainTransparent);
 	border: thick solid inherit;
 	height: 4.1rem;
 	position: fixed;
 	margin: -4rem auto auto auto;
-	opacity: 0.8;
-	z-index: 4;
 	padding-top: 1%;
 }
 .nav-list {
@@ -30,6 +28,7 @@
 	padding: 0.3rem;
 	margin-left: 2vw;
 	font-family: var(--fontOne);
+	color: var(--blueSecond);
 }
 .nav-item:hover {
 	transform: scale(1.5);

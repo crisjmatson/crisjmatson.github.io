@@ -45,7 +45,7 @@
 			</div>
 			<!-- name & title -->
 			<div class="container nametag">
-				<h1 class="display-4">cris j matson</h1>
+				<h1 class="display-4">cris j.<br> matson</h1>
 				<p class="lead">
 					web developer
 				</p>
@@ -53,7 +53,7 @@
 		</div>
 
 		<!-- about -->
-		<section id="aboutLand">
+		<section class="jumbotron jumbotron-fluid about" id="aboutLand">
 			<div class="text-wrap about-text">
 				<h4 class="aboutHeader">ABOUT</h4><br>
 				<p class="aboutBodyText">
@@ -69,13 +69,14 @@
 		</section>
 
 		<!-- projects -->
-		<section class="jumbotron jumbotron-fluid projects-box" id="projectsLand"><div><h1 class="projectsTitle">recent work</h1></div>
+		<section class="jumbotron jumbotron-fluid projects-box" id="projectsLand">
+			<div><h1 class="projectsTitle">recent work</h1></div>
 			<div class="row d-flex">
 				<div class="card col cryptoCard" style="width: 18rem;">
 					<a href="https://cryptocurrencyapicm.web.app/" target="blank">
 						<div class="card-body">
 							<h5 class="card-title">Crypto Coin API</h5>
-							<h6 class="card-subtitle mb-2 text-muted">
+							<h6 class="card-subtitle mb-2">
 								utilized API with key to display data
 							</h6>
 						</div>
@@ -86,7 +87,7 @@
 					<a href="https://crisjmatson.github.io/staticLayout/" target="blank">
 						<div class="card-body">
 							<h5 class="card-title">Static Site Layout</h5>
-							<h6 class="card-subtitle mb-2 text-muted">
+							<h6 class="card-subtitle mb-2">
 								recreated public site using html/css
 							</h6>
 						</div>
@@ -97,7 +98,7 @@
 					<a href="https://codepen.io/crisjmatson/full/RwrmRdd" target="blank">
 						<div class="card-body">
 							<h5 class="card-title">CSS Creature</h5>
-							<h6 class="card-subtitle mb-2 text-muted">
+							<h6 class="card-subtitle mb-2">
 								created and manipulated forms through css
 							</h6>
 						</div>
@@ -112,7 +113,7 @@
 					>
 						<div class="card-body">
 							<h5 class="card-title">COVID-19 API</h5>
-							<h6 class="card-subtitle mb-2 text-muted">
+							<h6 class="card-subtitle mb-2">
 								pulled data from keyless api, organized and formatted data
 							</h6>
 						</div>
@@ -125,7 +126,7 @@
 					>
 						<div class="card-body">
 							<h5 class="card-title">1150 Blue Badge</h5>
-							<h6 class="card-subtitle mb-2 text-muted">
+							<h6 class="card-subtitle mb-2">
 								-TBA-
 							</h6>
 						</div>
@@ -138,7 +139,7 @@
 					>
 						<div class="card-body">
 							<h5 class="card-title">1150 Red Badge</h5>
-							<h6 class="card-subtitle mb-2 text-muted">
+							<h6 class="card-subtitle mb-2">
 								-TBA-
 							</h6>
 						</div>
@@ -153,13 +154,13 @@
 				<p>Please contact me, I desire employment.</p>
 			</div>
 			<div class="container-fluid contactForm">
-				<form action="https://formspree.io/mnqgrdaw" method="POST">
+				<form action="https://formspree.io/mnqgrdaw" method="POST" class="contactFormInner">
 					<label>
 						email:
 						<input
 							type="email"
 							name="_replyto"
-							class="form-control"
+							class="form-control messageBox"
 							placeholder="name@example.com"
 							required
 						/> </label
@@ -169,7 +170,7 @@
 						message:<br />
 						<textarea
 							name="message"
-							class="form-control"
+							class="form-control messageBox"
 							placeholder="Hello!"
 						></textarea>
 					</label>

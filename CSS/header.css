@@ -6,8 +6,9 @@
 	height: 500px;
 }
 .nametag {
-	text-align: right;
+	text-align: center;
 	width: 40%;
 	margin-top: 20%;
-	margin-right: 0px;
+	margin-right: 10%;
+	letter-spacing: 3vw;
 }

@@ -1,7 +1,6 @@
-#aboutLand {
+.about {
 	background-image: url("https://images.unsplash.com/photo-1576615039667-c7a34b96f505?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");
 	background-color: var(--redSecond);
-	margin: 5%;
 	height: auto;
 }
 .aboutHeader {

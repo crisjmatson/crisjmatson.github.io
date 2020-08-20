@@ -1,7 +1,5 @@
 .contact {
 	/* section ID */
-    width: 105%;
-	padding: 10%;
     overflow: hidden;
 	display: inline-flexbox;
 	background-image: url("https://images.unsplash.com/photo-1576615039667-c7a34b96f505?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");
@@ -14,14 +12,21 @@
 	height: 20vh;
 }
 .contactForm {
-	height: 20vh;
 	padding: 2vh;
-	margin-top: -20%;
+	margin-top: -15%;
 	text-align: right;
+}
+.form-control::placeholder {
+	color: var(--blueSecond);
+	font-family: var(--fontTwo);
+}
+.messageBox {
+	background-color: var(--redThirdTransparent);
+	border-color: transparent;
 }
 .submitBtn:hover {
 	background-color: var(--redThird);
-	color: var(--blueFifth);
+	color: var(--blueSecond);
 	border-color: transparent;
 }
 .linkedInLogo {
