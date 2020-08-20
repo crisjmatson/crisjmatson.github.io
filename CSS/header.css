@@ -1,14 +1,29 @@
+.landing {
+	background-image: url("https://images.unsplash.com/photo-1595531980158-ced264177b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1670&q=80");
+}
+.headerTitle {
+	flex-direction: column;
+	margin-right: 2vw;
+}
+.nametag {
+	text-align: right;
+	margin-top: 22vh;
+	letter-spacing: 1vw;
+	height: auto;
+	align-self: flex-end, baseline;
+}
+.jobtag {
+	overflow: auto;
+	align-self: flex-end, baseline;
+	text-align: right;
+	letter-spacing: 2vw;
+
+}
+
 .headJumbo {
 	background-color: var(--yellowMain);
-	background-image: url("https://images.unsplash.com/photo-1595531980158-ced264177b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1670&q=80");
+	
 	background-size: cover;
 	background-position-y: center;
 	height: 500px;
-}
-.nametag {
-	text-align: center;
-	width: 40%;
-	margin-top: 20%;
-	margin-right: 10%;
-	letter-spacing: 3vw;
 }

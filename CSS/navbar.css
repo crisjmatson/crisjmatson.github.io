@@ -7,6 +7,7 @@
 	justify-content: flex-start;
 }
 .navBox {
+	z-index: 4;
 	overflow: auto;
 	background-color: var(--blueMainTransparent);
 	border: thick solid inherit;

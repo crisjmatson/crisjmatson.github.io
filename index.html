@@ -12,15 +12,18 @@
 			crossorigin="anonymous"
 		/>
 		<!-- google fonts link -->
-		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<!-- my css link -->
 		<link type="text/css" rel="stylesheet" href="CSS/main.css" />
 	</head>
 	<body>
 		<!-- navbar section -->
-
-		<div class="jumbotron jumbotron-fluid headJumbo" id="landing-section">
+		<div class="jumbotron jumbotron-fluid d-flex landing" id="landing-section">
 			<div class="navBox container-fluid">
+				 
 				<ul class="navbar-nav row navList" id="nav-content">
 					<li class="nav-item">
 						<a href="#landing-section">home</a>
@@ -42,11 +45,15 @@
 						<a href="#mediaLand">social</a>
 					</li>
 				</ul>
+				
 			</div>
 			<!-- name & title -->
-			<div class="container nametag">
-				<h1 class="display-4">cris j.<br> matson</h1>
-				<p class="lead">
+			<div class="container-fluid d-flex headerTitle">
+				<div class="display-4 nametag">
+					cris j.<br />
+					matson
+				</div>
+				<p class="lead jobtag">
 					web developer
 				</p>
 			</div>
@@ -55,15 +62,19 @@
 		<!-- about -->
 		<section class="jumbotron jumbotron-fluid about" id="aboutLand">
 			<div class="text-wrap about-text">
-				<h4 class="aboutHeader">ABOUT</h4><br>
+				<h4 class="aboutHeader">ABOUT</h4>
+				<br />
 				<p class="aboutBodyText">
+					I have worked in a wide variety of industries, and I've found something new, exciting, & interesting in each of them. 
 					Most recently I worked in fine dining, honing my soft skills &
 					attention to detail. <br /><br />I'm currently focusing on the web
-					development bootcamp offered by Eleven Fifty Academy.
-				</p><br>
+					development bootcamp offered by Eleven Fifty Academy. I'm enjoying the work immensely so far, and I'm excited to continue my education in the field. 
+				</p>
+				<br />
+				<a href="https://github.com/crisjmatson/portfolio/files/5100321/CMatson.Resume20.pdf">
 				<button type="button" class="btn btn-outline-dark resumeBtn">
 					download resume
-				</button>
+				</button></a>
 			</div>
 			<div class="addResumeHereGatDamnDummy"></div>
 		</section>
@@ -75,9 +86,9 @@
 				<div class="card col cryptoCard" style="width: 18rem;">
 					<a href="https://cryptocurrencyapicm.web.app/" target="blank">
 						<div class="card-body">
-							<h5 class="card-title">Crypto Coin API</h5>
+							<h5 class="card-title">cryptoCoin</h5>
 							<h6 class="card-subtitle mb-2">
-								utilized API with key to display data
+								utilized API key to <br>display data
 							</h6>
 						</div>
 					</a>
@@ -86,9 +97,9 @@
 				<div class="card col staticCard" style="width: 18rem;">
 					<a href="https://crisjmatson.github.io/staticLayout/" target="blank">
 						<div class="card-body">
-							<h5 class="card-title">Static Site Layout</h5>
+							<h5 class="card-title">staticSite</h5>
 							<h6 class="card-subtitle mb-2">
-								recreated public site using html/css
+								recreated public site <br>using html/css
 							</h6>
 						</div>
 					</a>
@@ -97,7 +108,7 @@
 				<div class="card col creatureCard" style="width: 18rem;">
 					<a href="https://codepen.io/crisjmatson/full/RwrmRdd" target="blank">
 						<div class="card-body">
-							<h5 class="card-title">CSS Creature</h5>
+							<h5 class="card-title">cssCreature</h5>
 							<h6 class="card-subtitle mb-2">
 								created and manipulated forms through css
 							</h6>
@@ -112,9 +123,9 @@
 						target="blank"
 					>
 						<div class="card-body">
-							<h5 class="card-title">COVID-19 API</h5>
+							<h5 class="card-title">covid19Api</h5>
 							<h6 class="card-subtitle mb-2">
-								pulled data from keyless api, organized and formatted data
+								utilized keyless api, organized and formatted data
 							</h6>
 						</div>
 					</a>
@@ -125,7 +136,7 @@
 						target="blank"
 					>
 						<div class="card-body">
-							<h5 class="card-title">1150 Blue Badge</h5>
+							<h5 class="card-title">blueBadge</h5>
 							<h6 class="card-subtitle mb-2">
 								-TBA-
 							</h6>
@@ -138,7 +149,7 @@
 						target="blank"
 					>
 						<div class="card-body">
-							<h5 class="card-title">1150 Red Badge</h5>
+							<h5 class="card-title">redBadge</h5>
 							<h6 class="card-subtitle mb-2">
 								-TBA-
 							</h6>
@@ -151,13 +162,15 @@
 		<section class="jumbotron jumbotron-fluid contact" id="contactLand">
 			<div class="contactHeader">
 				<h1>contact</h1>
-				<p>Please contact me, I desire employment.</p>
 			</div>
 			<div class="container-fluid contactForm">
-				<form action="https://formspree.io/mnqgrdaw" method="POST" class="contactFormInner">
-					<label>
-						email:
-						<input
+				<form
+					action="https://formspree.io/mnqgrdaw"
+					method="POST"
+					class="contactFormInner"
+				>
+					<label class="contactLabel">
+						your email:<input
 							type="email"
 							name="_replyto"
 							class="form-control messageBox"
@@ -166,7 +179,7 @@
 						/> </label
 					><br />
 
-					<label>
+					<label class="contactLabel">
 						message:<br />
 						<textarea
 							name="message"
@@ -176,7 +189,9 @@
 					</label>
 
 					<br />
-					<button type="submit" class="btn btn-outline-dark submitBtn">send</button>
+					<button type="submit" class="btn btn-outline-dark submitBtn">
+						send
+					</button>
 				</form>
 			</div>
 		</section>

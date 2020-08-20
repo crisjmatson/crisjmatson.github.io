@@ -6,10 +6,15 @@
 .aboutHeader {
     font-family: var(--fontOne);
     font-size: 40px;
+    letter-spacing: 2vw;
 }
 .about-text {
 	text-align: justify;
 	padding: 10%;
+}
+.resumeBtn {
+    border: thin solid var(--redThirdTransparent);
+    background-color: var(--redThirdTransparent);
 }
 .resumeBtn:hover {
 	background-color: var(--redThird);

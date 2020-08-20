@@ -9,6 +9,7 @@
 	font-family: var(--fontOne);
 	font-size: 84px;
 	text-align: right;
+	letter-spacing: 2vw;
 }
 .card {
 	font-family: var(--fontTwo);
@@ -19,12 +20,13 @@
 	border: none;
 	margin: 2%;
 	text-align: center;
+	z-index: 0;
 }
 .card:hover {
 	background-color: var(--yellowMain);
 	transform: scale(1.1);
 	transition: width 0.3s, height 0.3s, transform 0.3s;
-	z-index: 2;
+	z-index: 0;
 }
 .card-subtitle {
 	font-family: var(--fontOne);
