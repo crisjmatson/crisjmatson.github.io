@@ -2,12 +2,12 @@
 	--redMain: #d5371e;
 	--redSecond: #fa5239;
 	--redThird: #ff4426;
-	--redThirdTransparent: rgba(255, 68, 38, .4);
+	--redThirdTransparent: rgba(255, 68, 38, 0.4);
 	--redFourth: #a11600;
 	--redFifth: #7a1100;
 
 	--yellowMain: #ffbd31; /* Main Secondary color (1) */
-	--yellowMainTransparent: rgba(255, 189, 49, .65);
+	--yellowMainTransparent: rgba(255, 189, 49, 0.65);
 	--yellowSecond: #fff7e6;
 	--yellowThird: #ffd57d;
 	--yellowFourth: #c98800;
@@ -23,8 +23,8 @@
 	--greenSecond: #a1e8b6;
 	--greenThird: #5ac97b;
 	--greenFourth: #0f8d35;
-    --greenFifth: #005d1c;
-    
-    --fontOne:'Bebas Neue', cursive;
-    --fontTwo: 'Open Sans', sans-serif; 
+	--greenFifth: #005d1c;
+
+	--fontOne: "Bebas Neue", cursive;
+	--fontTwo: "Open Sans", sans-serif;
 }

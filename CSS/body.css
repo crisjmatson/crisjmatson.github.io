@@ -1,7 +1,7 @@
 body {
 	background-color: whitesmoke;
 }
-a { 
+a {
 	color: var(--blueFifth);
 }
 a:hover {

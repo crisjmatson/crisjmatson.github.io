@@ -1,28 +1,22 @@
 .mediaPage {
 	background-color: var(--blueMain);
 	background-image: url("https://images.unsplash.com/photo-1595531980158-ced264177b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1670&q=80");
-    padding: 2%;
+	padding: 5%;
 }
 .logos {
 	flex-direction: row;
 	height: auto;
+	padding: 5%;
 }
 .socialImg {
-	opacity: .7;
+	flex-grow: 5;
+	opacity: 0.7;
 }
 .socialImg:hover {
-	transform: scale(1.5);
+	transform: scale(0.8);
 	transition: width 0.3s, height 0.3s, transform 0.3s;
 	opacity: 1;
 }
-
-
-/* 
-.socialImg {
-	align-self: baseline;
-	padding: 40px;
+.linkedInAdjust {
+	width: 100%;
 }
-.linkedInLogoAdjust {
-    margin-left: 1%;
-}
- */

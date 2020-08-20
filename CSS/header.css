@@ -17,13 +17,4 @@
 	align-self: flex-end, baseline;
 	text-align: right;
 	letter-spacing: 2vw;
-
-}
-
-.headJumbo {
-	background-color: var(--yellowMain);
-	
-	background-size: cover;
-	background-position-y: center;
-	height: 500px;
 }

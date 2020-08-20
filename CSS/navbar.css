@@ -1,7 +1,7 @@
 #nav-content {
 	font-family: var(--fontTwo);
 	position: fixed;
-	margin-top: 0.5rem;
+	margin-top: 3rem;
 	z-index: 4;
 	flex-flow: row;
 	justify-content: flex-start;
@@ -13,7 +13,7 @@
 	border: thick solid inherit;
 	height: 4.1rem;
 	position: fixed;
-	margin: -4rem auto auto auto;
+	margin: -8vh auto auto auto;
 	padding-top: 1%;
 }
 .nav-list {
@@ -21,17 +21,21 @@
 	overflow: auto;
 	width: 100%;
 	flex-flow: row;
-	justify-content: space-around;	
+	justify-content: space-around;
 }
 .nav-item {
 	align-self: flex-start;
+	flex-grow: 20;
 	flex-grow: 6;
 	padding: 0.3rem;
-	margin-left: 2vw;
+	margin-left: 5vw;
 	font-family: var(--fontOne);
 	color: var(--blueSecond);
+	opacity: 0.5;
+	font-size: 22px;
 }
 .nav-item:hover {
-	transform: scale(1.5);
-	transition: width 0.3s, height 0.3s, transform 0.3s;
+	opacity: 1;
+	transform: scale(1.8);
+	transition: width 0.3s, height 0.3s, transform 0.2s;
 }
