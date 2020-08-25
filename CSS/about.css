@@ -5,12 +5,12 @@
 }
 .aboutHeader {
 	font-family: var(--fontOne);
-	font-size: 40px;
-    letter-spacing: 2vw;
+	font-size: 10vw;
+	letter-spacing: 2vw;
 }
 .aboutHeader:hover {
-    transform: scale(1.4) translateX(100px) rotate(10deg) translateY(15px);
-    transition: width 0.3s, height 0.3s, transform .5s;
+	transform: scale(1.4) translateX(100px) rotate(10deg) translateY(15px);
+	transition: width 0.3s, height 0.3s, transform 0.5s;
 }
 .about-text {
 	text-align: justify;

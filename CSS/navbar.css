@@ -8,7 +8,7 @@
 }
 .navBox {
 	z-index: 4;
-	overflow: auto;
+	overflow: visible;
 	background-color: var(--blueMainTransparent);
 	border: thick solid inherit;
 	height: 4.1rem;

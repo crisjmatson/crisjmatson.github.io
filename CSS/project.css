@@ -6,7 +6,7 @@
 }
 .projectsTitle {
 	font-family: var(--fontOne);
-	font-size: 84px;
+	font-size: 10vw;
 	text-align: right;
 	letter-spacing: 2vw;
 	margin-right: -5%;
@@ -16,7 +16,7 @@
 	color: var(--blueFourth);
 	background-color: var(--yellowMainTransparent);
 	border-radius: 2%;
-	padding: 5% 1%;
+	padding: 5% 0%;
 	border: none;
 	margin: 2%;
 	text-align: center;
@@ -28,8 +28,11 @@
 	transition: width 0.3s, height 0.3s, transform 0.3s;
 	z-index: 2;
 }
-.card-subtitle {
+h5 {
 	font-family: var(--fontOne);
+	font-size: 4vw;
+}
+.card-subtitle {
 	color: var(--blueFifth);
 }
 .cardContainer {
@@ -51,4 +54,7 @@
 }
 .container:hover .overlay {
 	transform: scale(1);
+}
+.card_subtitle_empty {
+	padding-top: 10%;
 }
