@@ -15,7 +15,6 @@
 	font-family: var(--fontTwo);
 	color: var(--blueFourth);
 	background-color: var(--yellowMainTransparent);
-	border-radius: 2%;
 	padding: 5% 0%;
 	border: none;
 	margin: 2%;
@@ -49,7 +48,7 @@ h5 {
 	transition: 0.3s ease;
 }
 .overlayThumbnail {
-	width: 100%;
+	width: auto;
 	height: auto;
 }
 .container:hover .overlay {
