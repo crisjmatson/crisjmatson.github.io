@@ -16,7 +16,8 @@
 	--blueMain: #37539f; /* Main Secondary color (2) */
 	--blueSecond: #14192538;
 	--blueThird: #5f78bc;
-	--blueFourth: #1a3680;
+	--blueThirdTransparent: rgba(26, 53, 127, 0.283);
+	--blueFourth: rgb(26, 53, 127);
 	--blueFifth: #081d55;
 
 	--greenMain: #2eaf55; /* Main Complement color */
