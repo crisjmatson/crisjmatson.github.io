@@ -11,10 +11,12 @@
 	letter-spacing: 1vw;
 	height: auto;
 	align-self: flex-end, baseline;
+	font-weight: 400;
 }
 .jobtag {
 	overflow: auto;
 	align-self: flex-end, baseline;
 	text-align: right;
 	letter-spacing: 2vw;
+	font-weight: 600;
 }

@@ -33,6 +33,7 @@ h5 {
 }
 .card-subtitle {
 	color: var(--blueFifth);
+	font-size: 1.6vw;
 }
 .cardContainer {
 	position: relative;

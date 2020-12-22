@@ -27,4 +27,5 @@
 }
 .aboutBodyText {
 	font: var(--fontTwo);
+	font-size: 2vw;
 }

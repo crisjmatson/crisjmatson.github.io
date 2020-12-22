@@ -13,6 +13,9 @@
 	margin-bottom: 0px;
 	height: 30vh;
 }
+.contactTitle {
+	font-size: 9vw;
+}
 .contactHeader:hover {
 	transform: scale(0.8) translateX(5px) rotate(10deg) translateY(5px);
 	transition: width 0.3s, height 0.3s, transform 0.5s;
@@ -33,7 +36,7 @@
 	background-color: var(--redThirdTransparent);
 	border-color: transparent;
 	width: 120%;
-	margin-right: 400px;
+	margin-right: 10vw;
 }
 .submitBtn:hover {
 	background-color: var(--redThird);
