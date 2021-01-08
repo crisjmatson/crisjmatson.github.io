@@ -44,6 +44,8 @@ h5 {
 	display: none;
 	color: var(--blueFifth);
 	font-size: 1.6vw;
+	font-weight: 550;
+	width: 40%;
 }
 .cardContainer {
 	position: relative;
@@ -67,4 +69,7 @@ h5 {
 }
 .card_subtitle_empty {
 	padding-top: 10%;
+}
+.toolList {
+	font-size: 1.8vw;
 }
