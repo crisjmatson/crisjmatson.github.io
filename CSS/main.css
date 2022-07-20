@@ -7,3 +7,6 @@
 @import "contact.css";
 @import "footer.css";
 @import "mediacontact.css";
+.txt {
+	cursor: default;
+}

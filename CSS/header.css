@@ -5,7 +5,12 @@
 	flex-direction: column;
 	margin-right: 2vw;
 }
+.nametag:hover {
+	letter-spacing: 8vw;
+}
 .nametag {
+	transition: letter-spacing 0.5s;
+	font-size: 11.5vw;
 	text-align: right;
 	margin-top: 22vh;
 	letter-spacing: 1vw;

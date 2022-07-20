@@ -9,10 +9,10 @@
 	font-family: var(--fontOne);
 	font-size: 10vw;
 	letter-spacing: 2vw;
+	transition: letter-spacing 0.5s;
 }
 .aboutHeader:hover {
-	transform: scale(1.4) translateX(100px) rotate(10deg) translateY(15px);
-	transition: width 0.3s, height 0.3s, transform 0.5s;
+	letter-spacing: 10vw;
 }
 .about-text {
 	text-align: justify;

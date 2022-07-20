@@ -3,6 +3,7 @@
 	background-position-y: bottom;
 	background-position-x: right;
 	padding: 5% 5% 5% 5%;
+	overflow: hidden;
 }
 .projectsTitle {
 	font-family: var(--fontOne);
